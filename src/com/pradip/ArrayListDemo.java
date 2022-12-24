@@ -11,7 +11,9 @@ public class ArrayListDemo {
 		al.add("shyam");
 		al.add("shivani");
 		
-		System.out.println(al);
+		for(Object o:al) {
+			System.out.println(o);
+		}
 	}
 
 }
